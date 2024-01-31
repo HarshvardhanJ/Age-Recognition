@@ -16,7 +16,7 @@ This project uses OpenCV for face detection and the AgeGenderNet model for age e
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/age-estimation.git
+    git clone https://github.com/HarshvardhanJ/Age-Recognition
     ```
 
 2. Install required dependencies:
