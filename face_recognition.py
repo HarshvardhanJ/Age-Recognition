@@ -26,7 +26,7 @@ def detect_faces_and_estimate_age(frame):
         age = la[age_preds[0].argmax()] 
 
         cv2.putText(frame, f'Age: {age}', (x, y - 25), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 0, 0), 2)
-
+        
     return frame
 
 def update_feed():
