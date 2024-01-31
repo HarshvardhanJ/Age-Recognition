@@ -25,6 +25,8 @@ This project uses OpenCV for face detection and the AgeGenderNet model for age e
     pip install opencv-python pillow
     ```
 
+    Make sure that `age_deploy.prototxt` and `age_net.caffemodel` are in the same folder as `face_reconition.py`. 
+
 3. Run the application:
 
     ```bash
